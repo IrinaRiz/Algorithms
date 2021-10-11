@@ -4,6 +4,7 @@ import org.junit.Test;
 public class MathematicsTest {
     @Test
     public void testTypeNumber(){
+
         int number1 = -345;
         int number2 = 0;
         int number3 = 222222;
