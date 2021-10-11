@@ -8,6 +8,7 @@ public class MathematicsTest {
         int number1 = -345;
         int number2 = 0;
         int number3 = 222222;
+
         //int number4 = 2147483647 + 3;
 
         Assert.assertEquals("Odd", Mathematics.typeNumber(number1));
