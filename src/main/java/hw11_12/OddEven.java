@@ -1,4 +1,7 @@
-public class Mathematics {
+package hw11_12;
+
+public class OddEven {
+
 
 //task1 Создать алгоритм OddEven, который примет на вход число,
 // вернет “Odd”,  если число нечетное, и “Even”, если число четное. Во всех остальных случаях результат будет “Undefined”.
@@ -22,6 +25,10 @@ public class Mathematics {
         }
         return type;
     }
-  }
+}
+
+
+
+
 
 
