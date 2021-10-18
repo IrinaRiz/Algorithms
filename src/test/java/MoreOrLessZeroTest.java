@@ -15,6 +15,5 @@ public class MoreOrLessZeroTest {
         Assert.assertEquals(expectedResult1, MoreOrLessZero.isLessZero(a));
         Assert.assertEquals(expectedResult2, MoreOrLessZero.isLessZero(b));
         Assert.assertEquals(expectedResult3, MoreOrLessZero.isLessZero(c));
-
     }
 }
