@@ -15,8 +15,7 @@ public class AscendingArray {
             }
             return array;
         }else {
-            int[] array = {-1};
-            return array;
+            return new int [] {-1};
         }
     }
 }
