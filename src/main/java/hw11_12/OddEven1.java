@@ -1,6 +1,6 @@
 package hw11_12;
 
-public class OddEven {
+public class OddEven1 {
 
 
 //task1 Создать алгоритм OddEven, который примет на вход число,

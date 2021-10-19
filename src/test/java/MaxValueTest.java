@@ -1,4 +1,4 @@
-import hw11_12.FindMax;
+import hw11_12.FindMax6;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -11,7 +11,7 @@ public class MaxValueTest {
 
         int expectedResult = 9999;
 
-        FindMax findMax = new FindMax();
+        FindMax6 findMax = new FindMax6();
         int actualResult = findMax.maxValue(a, b);
 
         Assert.assertEquals(expectedResult, actualResult);

@@ -1,4 +1,4 @@
-import hw11_12.MaxMinAverage;
+import hw11_12.MaxMinAverage5;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -12,8 +12,8 @@ public class MaxMinAverageTest {
         int[] array2 = {-3, 0, 155, -39, 1003};
         int[] expectedResult2 = {1003, -39, 223};
 
-        Assert.assertArrayEquals(expectedResult1, MaxMinAverage.newArray(array1));
-        Assert.assertArrayEquals(expectedResult2, MaxMinAverage.newArray(array2));
+        Assert.assertArrayEquals(expectedResult1, MaxMinAverage5.newArray(array1));
+        Assert.assertArrayEquals(expectedResult2, MaxMinAverage5.newArray(array2));
 
     }
 }

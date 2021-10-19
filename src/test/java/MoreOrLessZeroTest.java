@@ -1,4 +1,4 @@
-import hw11_12.MoreOrLessZero;
+import hw11_12.MoreOrLessZero7;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -8,7 +8,7 @@ public class MoreOrLessZeroTest {
         int a = 555;
 
         boolean expectedResult1 = true;
-        MoreOrLessZero moreOrLessZero = new MoreOrLessZero();
+        MoreOrLessZero7 moreOrLessZero = new MoreOrLessZero7();
 
         boolean actualResult = moreOrLessZero.isLessZero(a);
 
@@ -21,7 +21,7 @@ public class MoreOrLessZeroTest {
         int b = 0;
 
         boolean expectedResult = true;
-        MoreOrLessZero moreOrLessZero = new MoreOrLessZero();
+        MoreOrLessZero7 moreOrLessZero = new MoreOrLessZero7();
 
         boolean actualResult = moreOrLessZero.isLessZero(b);
 
@@ -34,7 +34,7 @@ public class MoreOrLessZeroTest {
 
         boolean expectedResult = false;
 
-        MoreOrLessZero moreOrLessZero = new MoreOrLessZero();
+        MoreOrLessZero7 moreOrLessZero = new MoreOrLessZero7();
         boolean actualResult = moreOrLessZero.isLessZero(c);
 
         Assert.assertEquals(expectedResult, actualResult);

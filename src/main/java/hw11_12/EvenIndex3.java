@@ -2,7 +2,7 @@ package hw11_12;
 
 import java.util.Arrays;
 
-public class EvenIndex {
+public class EvenIndex3 {
     public static int[] arrayIndex(int[] array){
         int j = 0;
         int[] newArray = new int[array.length / 2];

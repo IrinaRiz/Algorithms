@@ -1,4 +1,4 @@
-import hw11_12.EvenIndex;
+import hw11_12.EvenIndex3;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -8,6 +8,6 @@ public class EvenIndexTest {
         int[] array = {-45, 590, 234, 985, 12, 68};
         int[] expectedResult = {590, 985, 68};
 
-        Assert.assertArrayEquals(expectedResult,EvenIndex.arrayIndex(array));
+        Assert.assertArrayEquals(expectedResult, EvenIndex3.arrayIndex(array));
     }
 }

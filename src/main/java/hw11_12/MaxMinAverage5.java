@@ -1,5 +1,5 @@
 package hw11_12;
-public class MaxMinAverage {
+public class MaxMinAverage5 {
 //    Написать алгоритм, который принимает массив чисел int[] и возвращает массив,
 //    который содержит максимальное число, минимальное число и среднее.
     public static int[] newArray(int[] array){

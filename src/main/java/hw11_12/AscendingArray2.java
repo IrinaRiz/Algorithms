@@ -2,7 +2,7 @@ package hw11_12;
 
 import java.util.Arrays;
 
-public class AscendingArray {
+public class AscendingArray2 {
 
     //task 2   Написать алгоритм AscendingSequence, который строит возрастающую последовательность чисел от a до b с шагом n.
 

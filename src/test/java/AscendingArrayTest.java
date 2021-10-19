@@ -1,4 +1,4 @@
-import hw11_12.AscendingArray;
+import hw11_12.AscendingArray2;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -10,7 +10,7 @@ public class AscendingArrayTest {
         int n =  5;
         int[] expectedResult = {10, 15, 20, 25};
 
-        Assert.assertArrayEquals(expectedResult, AscendingArray.ascendingOrder(a, b, n));
+        Assert.assertArrayEquals(expectedResult, AscendingArray2.ascendingOrder(a, b, n));
     }
 
     @Test
@@ -21,7 +21,7 @@ public class AscendingArrayTest {
 
         int [] expectedResult = {-1};
 
-        Assert.assertArrayEquals(expectedResult, AscendingArray.ascendingOrder(a, b , n));
+        Assert.assertArrayEquals(expectedResult, AscendingArray2.ascendingOrder(a, b , n));
     }
 
     @Test
@@ -32,6 +32,6 @@ public class AscendingArrayTest {
 
         int [] expectedResult = {-1};
 
-        Assert.assertArrayEquals(expectedResult, AscendingArray.ascendingOrder(a, b, n));
+        Assert.assertArrayEquals(expectedResult, AscendingArray2.ascendingOrder(a, b, n));
     }
 }

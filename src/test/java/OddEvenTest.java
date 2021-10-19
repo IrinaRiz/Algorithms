@@ -1,4 +1,4 @@
-import hw11_12.OddEven;
+import hw11_12.OddEven1;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -9,7 +9,7 @@ public class OddEvenTest {
 
         String expectedResult = "Odd";
 
-        OddEven oddEven = new OddEven();
+        OddEven1 oddEven = new OddEven1();
         String actualResult = oddEven.typeNumber(number1);
 
         Assert.assertEquals(expectedResult, actualResult);
@@ -21,7 +21,7 @@ public class OddEvenTest {
 
         String expectedResult = "Even";
 
-        OddEven oddEven = new OddEven();
+        OddEven1 oddEven = new OddEven1();
         String actualResult = oddEven.typeNumber(number2);
 
         Assert.assertEquals(expectedResult, actualResult);
@@ -33,7 +33,7 @@ public class OddEvenTest {
 
         String expectedResult = "Even";
 
-        OddEven oddEven = new OddEven();
+        OddEven1 oddEven = new OddEven1();
         String actualResult = oddEven.typeNumber(number3);
 
         Assert.assertEquals(expectedResult, actualResult);
@@ -44,7 +44,7 @@ public class OddEvenTest {
         long number4 = 2147483647l + 1;
         String expectedResult = "Undefined";
 
-        OddEven oddEven = new OddEven();
+        OddEven1 oddEven = new OddEven1();
         String actualResult = oddEven.typeNumber(number4);
 
         Assert.assertEquals(expectedResult, actualResult);
