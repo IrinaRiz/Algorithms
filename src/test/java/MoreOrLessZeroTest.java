@@ -4,16 +4,39 @@ import org.junit.Test;
 
 public class MoreOrLessZeroTest {
     @Test
-    public void simpleTest(){
+    public void positiveNumberTest(){
         int a = 555;
-        int b = 0;
-        int c = -555;
-        boolean expectedResult1 = true;
-        boolean expectedResult2 = true;
-        boolean expectedResult3 = false;
 
-        Assert.assertEquals(expectedResult1, MoreOrLessZero.isLessZero(a));
-        Assert.assertEquals(expectedResult2, MoreOrLessZero.isLessZero(b));
-        Assert.assertEquals(expectedResult3, MoreOrLessZero.isLessZero(c));
+        boolean expectedResult1 = true;
+        MoreOrLessZero moreOrLessZero = new MoreOrLessZero();
+
+        boolean actualResult = moreOrLessZero.isLessZero(a);
+
+        Assert.assertEquals(expectedResult1, actualResult);
+
+    }
+
+    @Test
+    public void zeroNumberTest(){
+        int b = 0;
+
+        boolean expectedResult = true;
+        MoreOrLessZero moreOrLessZero = new MoreOrLessZero();
+
+        boolean actualResult = moreOrLessZero.isLessZero(b);
+
+        Assert.assertEquals(expectedResult, actualResult);
+    }
+
+    @Test
+    public void negativeNumber(){
+        int c = -555;
+
+        boolean expectedResult = false;
+
+        MoreOrLessZero moreOrLessZero = new MoreOrLessZero();
+        boolean actualResult = moreOrLessZero.isLessZero(c);
+
+        Assert.assertEquals(expectedResult, actualResult);
     }
 }
