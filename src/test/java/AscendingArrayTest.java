@@ -33,8 +33,5 @@ public class AscendingArrayTest {
         int [] expectedResult = {-1};
 
         Assert.assertArrayEquals(expectedResult, AscendingArray.ascendingOrder(a, b, n));
-
-
-
     }
 }

@@ -11,6 +11,9 @@ public class MaxValueTest {
 
         int expectedResult = 9999;
 
-        Assert.assertEquals(expectedResult, FindMax.maxValue(a, b));
+        FindMax findMax = new FindMax();
+        int actualResult = findMax.maxValue(a, b);
+
+        Assert.assertEquals(expectedResult, actualResult);
     }
 }
