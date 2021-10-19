@@ -12,15 +12,13 @@ public class OddEven {
 //            222222 -> “Even”
 //            2147483647 + 1 -> “Undefined”
 
-    public static String typeNumber(int a) {
+    public static String typeNumber(long a) {
         String type = "";
-        if (a == Integer.MAX_VALUE || a == Integer.MIN_VALUE) {
+        if (a > Integer.MAX_VALUE || a < Integer.MIN_VALUE) {
             type = "Undefined";
-        }
-        if (a % 2 != 0) {
+        }else if (a % 2 != 0) {
             type = "Odd";
-        }
-        if (a % 2 == 0) {
+        }else{
             type = "Even";
         }
         return type;

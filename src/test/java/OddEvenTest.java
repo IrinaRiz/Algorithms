@@ -4,16 +4,49 @@ import org.junit.Test;
 
 public class OddEvenTest {
     @Test
-    public void testTypeNumber() {
+    public void negativeNumber() {
+        long number1 = -345;
 
-        int number1 = -345;
-        int number2 = 0;
-        int number3 = 222222;
-        int number4 = 2147483647 + 3;
+        String expectedResult = "Odd";
 
-        Assert.assertEquals("Odd", OddEven.typeNumber(number1));
-        Assert.assertEquals("Even", OddEven.typeNumber(number2));
-        Assert.assertEquals("Even", OddEven.typeNumber(number3));
-        //Assert.assertEquals("Undefined", Mathematics.typeNumber(number4));
+        OddEven oddEven = new OddEven();
+        String actualResult = oddEven.typeNumber(number1);
+
+        Assert.assertEquals(expectedResult, actualResult);
+    }
+
+    @Test
+    public void zeroNumber(){
+        long number2 = 0;
+
+        String expectedResult = "Even";
+
+        OddEven oddEven = new OddEven();
+        String actualResult = oddEven.typeNumber(number2);
+
+        Assert.assertEquals(expectedResult, actualResult);
+    }
+
+    @Test
+    public void positiveNumber(){
+        long number3 = 222222;
+
+        String expectedResult = "Even";
+
+        OddEven oddEven = new OddEven();
+        String actualResult = oddEven.typeNumber(number3);
+
+        Assert.assertEquals(expectedResult, actualResult);
+    }
+
+    @Test
+    public void longNumber(){
+        long number4 = 2147483647l + 1;
+        String expectedResult = "Undefined";
+
+        OddEven oddEven = new OddEven();
+        String actualResult = oddEven.typeNumber(number4);
+
+        Assert.assertEquals(expectedResult, actualResult);
     }
 }
