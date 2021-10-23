@@ -1,45 +1,115 @@
 package hw15_16;
 
 public class BeerSong {
-    public static void countBottles() {
+    static int count = 99;
 
-        int count = 99;
-        String bottlesOfBeer = " bottles of beer";
-        String onTheWall = " on the wall, ";
-        String onTheWallDot = " on the wall.";
-        String passItAround = "Take one down and pass it around, ";
-        String noMore = "no more";
-        String singleBottle = " bottle of beer";
-        String dot = " ";
+    public static void bottlesOfBeer() {
+        System.out.print(" bottles of beer");
+    }
+
+    public static void onTheWall() {
+        System.out.print("on the wall,");
+    }
+
+    public static void onTheWallDot() {
+        System.out.println(" on the wall.");
+    }
+
+    public static void passItAround() {
+        System.out.print("Take one down and pass it around,");
+    }
+
+    public static void noMore() {
+        System.out.print("no more");
+    }
+
+    public static void singleBottle() {
+        System.out.print(" bottle of beer");
+    }
+
+    public static void dot() {
+        System.out.println(".");
+    }
+
+    public static void emptyLine() {
+        System.out.println();
+    }
+
+    public static void goToTheStore() {
+        System.out.print("Go to the store and buy some more," + count);
+        bottlesOfBeer();
+        onTheWallDot();
+    }
+    public static void space(){
+        System.out.print(" ");
+    }
+    public static void noMoreCapital(){
+        System.out.print("No more");
+    }
+
+    public static void printSong() {
         for (int i = count; i >= 0; i--) {
             if (i == 0) {
-                System.out.println("No more " + bottlesOfBeer + onTheWall + noMore + " " + bottlesOfBeer + dot);
-                System.out.println("Go to the store and buy some more," + " " + count + " " + bottlesOfBeer + onTheWallDot);
-
+                emptyLine();
+                noMoreCapital();
+                bottlesOfBeer();
+                space();
+                onTheWall();
+                noMore();
+                bottlesOfBeer();
+                dot();
+                goToTheStore();
             } else if (i == 1) {
-                System.out.println(i + singleBottle + onTheWall + i + singleBottle + dot);
-                System.out.println(passItAround + noMore + bottlesOfBeer + onTheWallDot);
-                System.out.println();
+                System.out.print(i);
+                singleBottle();
+                space();
+                onTheWall();
+                System.out.print(i);
+                singleBottle();
+                dot();
+                passItAround();
+                noMore();
+                bottlesOfBeer();
+                onTheWallDot();
 
             } else if (i == 2) {
-                System.out.println(i + bottlesOfBeer + onTheWall + i + bottlesOfBeer + dot);
-                System.out.print(passItAround);
-                System.out.println(i - 1 + singleBottle + onTheWallDot);
-                System.out.println();
-
+                System.out.print(i);
+                bottlesOfBeer();
+                onTheWall();
+                System.out.print(i);
+                bottlesOfBeer();
+                dot();
+                passItAround();
+                System.out.print(i - 1);
+                singleBottle();
+                onTheWallDot();
+                emptyLine();
             } else {
-                System.out.println(i + bottlesOfBeer + onTheWall + i + bottlesOfBeer + dot);
-                System.out.print(passItAround);
-                System.out.println(i - 1 + bottlesOfBeer + onTheWallDot);
-                System.out.println();
+                System.out.print(i);
+                bottlesOfBeer();
+                onTheWall();
+                System.out.print(i);
+                bottlesOfBeer();
+                dot();
+                passItAround();
+                System.out.print(i - 1);
+                bottlesOfBeer();
+                onTheWallDot();
+                emptyLine();
+
             }
         }
     }
-
     public static void main(String[] args) {
-        countBottles();
+        printSong();
+
     }
 }
+
+
+
+
+
 
 
 
