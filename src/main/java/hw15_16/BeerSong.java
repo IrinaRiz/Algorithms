@@ -87,11 +87,14 @@ public class BeerSong {
             } else {
                 System.out.print(i);
                 bottlesOfBeer();
+                space();
                 onTheWall();
+                space();
                 System.out.print(i);
                 bottlesOfBeer();
                 dot();
                 passItAround();
+                space();
                 System.out.print(i - 1);
                 bottlesOfBeer();
                 onTheWallDot();
@@ -99,10 +102,6 @@ public class BeerSong {
 
             }
         }
-    }
-    public static void main(String[] args) {
-        printSong();
-
     }
 }
 
