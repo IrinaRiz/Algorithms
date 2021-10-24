@@ -1,4 +1,5 @@
-import hw15_16.ZeroSum;
+package hw15_16;
+
 import org.junit.Assert;
 import org.junit.Test;
 

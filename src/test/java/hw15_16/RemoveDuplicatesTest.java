@@ -1,3 +1,5 @@
+package hw15_16;
+
 import hw15_16.RemoveDuplicates;
 import org.junit.Assert;
 import org.junit.Test;

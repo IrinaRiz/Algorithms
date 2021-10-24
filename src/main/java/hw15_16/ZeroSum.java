@@ -1,7 +1,5 @@
 package hw15_16;
 
-import java.util.Arrays;
-
 public class ZeroSum {
     public int[] shortArray(int[] array){
          int[] arr = new int[2];
