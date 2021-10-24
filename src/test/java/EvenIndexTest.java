@@ -8,6 +8,9 @@ public class EvenIndexTest {
         int[] array = {-45, 590, 234, 985, 12, 68};
         int[] expectedResult = {590, 985, 68};
 
-        Assert.assertArrayEquals(expectedResult, EvenIndex3.arrayIndex(array));
+        EvenIndex3 evenIndex3 = new EvenIndex3();
+        int[] actualResult = evenIndex3.arrayIndex(array);
+
+        Assert.assertArrayEquals(expectedResult, actualResult);
     }
 }
