@@ -1,3 +1,5 @@
+package hw11_12;
+
 import hw11_12.FindMax6;
 import org.junit.Assert;
 import org.junit.Test;

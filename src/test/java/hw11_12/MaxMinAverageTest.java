@@ -1,3 +1,5 @@
+package hw11_12;
+
 import hw11_12.MaxMinAverage5;
 import org.junit.Assert;
 import org.junit.Test;

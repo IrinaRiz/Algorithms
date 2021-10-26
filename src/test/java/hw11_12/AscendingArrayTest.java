@@ -1,3 +1,5 @@
+package hw11_12;
+
 import hw11_12.AscendingArray2;
 import org.junit.Assert;
 import org.junit.Test;
