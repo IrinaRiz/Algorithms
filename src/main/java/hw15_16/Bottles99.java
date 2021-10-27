@@ -14,32 +14,55 @@ public class Bottles99 {
         String bottles = " bottles of beer";
         String bottle = " bottle of beer";
         String wall = " on the wall";
-        //String noMore1 = "no more";
-        String noMoreN = "No more";
+        String noMore = "No more";
         String take = "Take one down and pass it around";
         String go = "Go to the store and buy some more";
         String commaSpace = ", ";
         String dot = ".";
 
-        for (int i = 99; i >= 0; i--) {
-            if (i == 2) {
-                System.out.println(i + bottles + wall + commaSpace + i + bottles + dot);
-                System.out.println(take + commaSpace + (i - 1) + bottle + wall + dot);
-                System.out.println();
-            } else if (i == 1) {
-                System.out.println(i + bottle + wall + commaSpace + i + bottle + dot);
-                System.out.println(take + commaSpace + noMoreN.toLowerCase() + bottles + wall + dot);
-                System.out.println();
-            } else if (i == 0) {
-                System.out.println(noMoreN + bottles + wall + commaSpace + noMoreN.toLowerCase() + bottles + dot);
-                System.out.println(go + commaSpace + 99 + bottles + wall + dot);
-                System.out.println();
-            } else {
-                System.out.println(i + bottles + wall + commaSpace + i + bottles + dot);
-                System.out.println(take + commaSpace + (i - 1) + bottles + wall + dot);
-                System.out.println();
+//        System.out.println(bottles.length());
+//        for(int i = 0; i < bottles.length(); i++){
+//            if(bottles.charAt(i) == 's'){
+//                System.out.println(i);
+//            }
+//        }
+        String newResult = "";
+        for(int i = 0; i < bottles.length(); i++) {
+            if (i != 7) {
+                newResult = newResult + bottles.charAt(i);
             }
         }
+        System.out.println(newResult);
+
+//        for(int i = 0; i < bottles.length(); i++) {
+//            if ( bottles.charAt(i) != 's') {
+//                newResult = newResult + bottles.charAt(i);
+//            }
+//        }
+//        System.out.println(newResult);
+
+
+        //System.out.println(bottle);
+
+//        for (int i = 99; i >= 0; i--) {
+//            if (i == 2) {
+//                System.out.println(i + bottles + wall + commaSpace + i + bottles + dot);
+//                System.out.println(take + commaSpace + (i - 1) + bottle + wall + dot);
+//                System.out.println();
+//            } else if (i == 1) {
+//                System.out.println(i + bottle + wall + commaSpace + i + bottle + dot);
+//                System.out.println(take + commaSpace + noMore.toLowerCase() + bottles + wall + dot);
+//                System.out.println();
+//            } else if (i == 0) {
+//                System.out.println(noMore + bottles + wall + commaSpace + noMore.toLowerCase() + bottles + dot);
+//                System.out.println(go + commaSpace + 99 + bottles + wall + dot);
+//                System.out.println();
+//            } else {
+//                System.out.println(i + bottles + wall + commaSpace + i + bottles + dot);
+//                System.out.println(take + commaSpace + (i - 1) + bottles + wall + dot);
+//                System.out.println();
+//            }
+//        }
     }
     public static void main(String[] args) {
         printBottles99Song();
