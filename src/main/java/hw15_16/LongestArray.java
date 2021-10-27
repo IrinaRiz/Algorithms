@@ -1,5 +1,8 @@
 package hw15_16;
 
+//Написать метод, который принимает на вход массив чисел 0 и 1,
+// и возвращает самую длинную последовательность единиц из входящего массива
+
 public class LongestArray {
     public String[] longArray(int[] array) {
         StringBuilder ones = new StringBuilder();

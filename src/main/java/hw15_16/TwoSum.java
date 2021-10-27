@@ -1,6 +1,10 @@
 package hw15_16;
 
-import java.util.Arrays;
+//Написать алгоритм TwoSum, который принимает на вход массив целых чисел,
+// и возвращает массив из двух ИНДЕКСОВ значений, сумма которых равна таргетному числу.
+
+
+
 
 public class TwoSum {
     public int[] returnIndex (int[] array, int target) {

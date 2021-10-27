@@ -1,8 +1,7 @@
 package hw15_16;
 
-import java.util.Arrays;
-
-import static java.lang.StrictMath.abs;
+//Написать алгоритм SmallestDifference, который принимает на вход массив целых чисел
+// и возвращает ту пару чисел, абсолютная разница между которыми наименьшая
 
 public class SmallestDifference {
     public static int[] minDifference(int[] array){
