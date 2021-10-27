@@ -21,8 +21,7 @@ public class LongestArray {
             }
         }
             for (int i = 0; i < max_seq; i++) {
-                ones = ones.append(1);
-                ones = ones.append(",");
+                ones = ones.append(1).append(",");
             }
             return ones.toString().split(",");
         }
