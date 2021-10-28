@@ -1,12 +1,11 @@
 package hw15_16;
 
-import hw15_16.RemoveDuplicates;
 import org.junit.Assert;
 import org.junit.Test;
 
 public class RemoveDuplicatesTest {
     @Test
-    public void checkDuplicate1() {
+    public void testCheckDuplicate1() {
         int[] array = {3, 4, 2, 6, 4, 3, 3, 3, 2, 2};
         int[] expectedResult = {3, 4, 2, 6};
 
@@ -17,7 +16,7 @@ public class RemoveDuplicatesTest {
     }
 
     @Test
-    public void checkDuplicate2(){
+    public void testCheckDuplicate2(){
         int[] array = {0, 1, 2, 3, 4, 5, 4, 3, 2, 1, 0};
         int[] expectedResult = {0, 1, 2, 3, 4, 5};
 
@@ -25,7 +24,6 @@ public class RemoveDuplicatesTest {
         int[] actualResult = removeDuplicates.newArray(array);
 
         Assert.assertArrayEquals(expectedResult, actualResult);
-
     }
 }
 

@@ -10,7 +10,7 @@ public class Bottles99 {
 //    просто будет запускать метод и
 //    выводить песню на консоль)
 
-    public static String buildNewString(String string, int index, char letter){
+    private String buildNewString(String string, int index, char letter){
         String result = "";
         for(int i = 0; i < string.length(); i++) {
             if(i != index && string.charAt(i) != letter){
@@ -20,7 +20,7 @@ public class Bottles99 {
         return result;
     }
 
-    public static void printBottles99Song() {
+    public void printBottles99Song() {
         String bottles = " bottles of beer";
         String wall = " on the wall";
         String noMore = "No more";
@@ -73,9 +73,6 @@ public class Bottles99 {
                 System.out.println();
             }
         }
-    }
-    public static void main(String[] args) {
-        printBottles99Song();
     }
 }
 

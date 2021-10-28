@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class TwoSumTest {
     @Test
-    public void indexArrayTest1(){
+    public void testIndexArray1(){
         int[] array = {68, 5, 2, 100, 9, 12, 8};
         int targetNumber = 10;
         int[] expectedResult =  {2, 6};
@@ -17,7 +17,7 @@ public class TwoSumTest {
     }
 
     @Test
-    public void indexArrayTest2(){
+    public void testIndexArray2(){
         int[] array = {1, 20, 40, 60, -40, -20, -1};
         int targetNumber = -19;
         int[] expectedResult = {0, 5};
@@ -29,7 +29,7 @@ public class TwoSumTest {
     }
 
     @Test
-    public void indexArrayTest3(){
+    public void testIndexArray3(){
         int[] array = {8, 5, 2, 0, 9, 12, 8};
         int targetNumber = 12;
         int[] expectedResult = {3, 5};

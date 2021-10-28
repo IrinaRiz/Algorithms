@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class LongestArrayTest {
     @Test
-    public void maxSequenceTest1(){
+    public void testMaxSequence1(){
         int[] array = {1, 1, 1, 0, 0, 0, 1, 1};
         String[] expectedResult = {"1","1","1"};
 
@@ -16,7 +16,7 @@ public class LongestArrayTest {
     }
 
     @Test
-    public void maxSequenceTest2() {
+    public void testMaxSequence2() {
         int[] array = {1, 0, 1, 1, 0, 1};
         String[] expectedResult = {"1", "1"};
 

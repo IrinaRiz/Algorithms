@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class ZeroSumTest {
     @Test
-    public void checkSumZero(){
+    public void testCheckSumZero(){
         int[] array = {35, 23, 12, 89, -23, -48, 100};
         int[] expectedResult = {23, -23};
 

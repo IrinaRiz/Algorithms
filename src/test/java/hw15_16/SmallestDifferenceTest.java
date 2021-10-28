@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class SmallestDifferenceTest {
     @Test
-    public void checkDifferenceTest1(){
+    public void testCheckDifference1(){
         int[] array = {8, 5, 2, 0, 9, 12, 8};
         int[] expectedResult =  {8, 8};
 
@@ -17,7 +17,7 @@ public class SmallestDifferenceTest {
     }
 
     @Test
-    public void checkDifferenceTest2(){
+    public void testCheckDifference2(){
         int[] array = {8, -55, 2, -54, -12};
         int[] expectedResult =  {-55, -54};
 

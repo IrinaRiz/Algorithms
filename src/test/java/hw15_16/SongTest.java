@@ -7,7 +7,7 @@ import static hw15_16.BeerSong.printSong;
 
 public class SongTest {
     @Test
-    public void printSongTest(){
+    public void testPrintSong(){
         printSong();
     }
 }

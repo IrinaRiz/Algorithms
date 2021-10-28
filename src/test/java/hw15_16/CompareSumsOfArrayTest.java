@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class CompareSumsOfArrayTest {
     @Test
-    public void compareSums1(){
+    public void testCompareSums1(){
         int[] array = {4, 6, 3, 7, 1, 2};
         boolean expectedResult = true;
 
@@ -16,7 +16,7 @@ public class CompareSumsOfArrayTest {
     }
 
     @Test
-    public void compareSums2(){
+    public void testCompareSums2(){
         int[] array = {12, 48, 15, 125};
         boolean expectedResult = false;
 

@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class IsEqualTest {
     @Test
-    public void compareArrays1(){
+    public void testCompareArrays1(){
         int[] array1 = {1, 2, 3, 4, 5};
         int[] array2 =  {1, 2, 3, 4, 5};
         boolean expectedResult = true;
@@ -17,7 +17,7 @@ public class IsEqualTest {
     }
 
     @Test
-    public void compareArrays2(){
+    public void testCompareArrays2(){
         int[] array1 = {1, 2, 3, 4, 5};
         int[] array2 =  {1, 2, 3, 4, 6};
         boolean expectedResult = false;
