@@ -13,6 +13,6 @@ public class TwoSum {
                 }
             }
         }
-        return new int[1];
+        return new int[0];
     }
 }
