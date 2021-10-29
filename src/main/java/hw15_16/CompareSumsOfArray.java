@@ -7,6 +7,11 @@ package hw15_16;
 public class CompareSumsOfArray {
 
     public  boolean compareSums(int[] array){
+
+        if(array == null || array.length == 0 || array.length % 2 != 0){
+            return false;
+        }
+
         int sum1 = 0;
         int sum2 = 0;
         for(int i = 0; i < array.length; i ++){

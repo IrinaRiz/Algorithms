@@ -7,8 +7,12 @@ public class CompareTwoArrays {
 
     public boolean isEqual(int[] array1, int[] array2) {
         boolean result = true;
-        for (int i = 0; i < array1.length; i++) {
-            result = array1[i] == array2[i];
+        if (array1.length != array2.length) {
+            return false;
+        }else if (array1.length == array2.length) {
+            for (int i = 0; i < array1.length; i++) {
+                result = array1[i] == array2[i];
+            }
         }
         return result;
     }

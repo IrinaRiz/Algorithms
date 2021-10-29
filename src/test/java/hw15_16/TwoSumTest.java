@@ -3,6 +3,8 @@ package hw15_16;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.Arrays;
+
 public class TwoSumTest {
     @Test
     public void testIndexArray1(){
@@ -12,6 +14,7 @@ public class TwoSumTest {
 
         TwoSum twoSum = new TwoSum();
         int[] actualResult = twoSum.returnIndex(array, targetNumber);
+        System.out.println(Arrays.toString(actualResult));
 
         Assert.assertArrayEquals(expectedResult,actualResult);
     }
