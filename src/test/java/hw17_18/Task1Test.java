@@ -11,7 +11,6 @@ public class Task1Test {
         String expectedResult = "qorro";
 
         String actualResult = task1.printLetters(str);
-        task1.printSomething();
 
         Assert.assertEquals(expectedResult, actualResult);
     }
