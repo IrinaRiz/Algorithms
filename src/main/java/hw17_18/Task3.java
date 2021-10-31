@@ -7,7 +7,7 @@ public class Task3 {
 //            “Java less0ns are fun” -> “Java lessons are fun”
     public String correctString( String initialString, char digit){
         String newStr = "";
-        if(initialString.isBlank() || initialString.isEmpty()) {
+        if(initialString.isBlank()) {
             newStr = "Warning: String is empty or blank!";
         }else {
             for (int i = 0; i < initialString.length(); i++) {
