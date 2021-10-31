@@ -8,7 +8,7 @@ public class Task5 {
     public String updatedString(String str){
         String newString = "";
         if(str.isBlank()) {
-            newString = "Nothing to process, string is not valid.";
+            return null;
         }else{
             newString = str.replaceAll(" ", "").toLowerCase();
         }

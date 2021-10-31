@@ -10,8 +10,8 @@ public class Task1 {
 
     public String printLetters(String str) {
         String newStr = "";
-        if (str == null || str.length() == 0) {
-            newStr = "Nothing to print, string is empty";
+        if (str.isBlank()) {
+            return null;
         } else {
             for (int i = 0; i < str.length(); i++) {
                 if (str.toLowerCase().charAt(i) == 'q' || str.toLowerCase().charAt(i) == 'o'

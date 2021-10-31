@@ -8,7 +8,7 @@ public class Task3 {
     public String correctString( String initialString, char digit){
         String newStr = "";
         if(initialString.isBlank()) {
-            newStr = "Warning: String is empty or blank!";
+            return null;
         }else {
             for (int i = 0; i < initialString.length(); i++) {
                 if (initialString.charAt(i) == digit) {

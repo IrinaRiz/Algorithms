@@ -29,7 +29,7 @@ public class Task2Test {
     @Test
     public void testOddIndex3() {
         String str = "";
-        String expectedResult = "Nothing to print, string is empty";
+        String expectedResult = null;
 
         Task2 task2 = new Task2();
         String actualResult = task2.oddIndexString(str);

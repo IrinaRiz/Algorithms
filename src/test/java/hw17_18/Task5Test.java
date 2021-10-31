@@ -31,7 +31,7 @@ public class Task5Test {
     @Test
     public void testRemoveSpaces3(){
         String input = "  ";
-        String expectedResult = "Nothing to process, string is not valid.";
+        String expectedResult = null;
 
         Task5 task5 = new Task5();
 

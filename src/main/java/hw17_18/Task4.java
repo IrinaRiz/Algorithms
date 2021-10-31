@@ -8,7 +8,9 @@ public class Task4 {
 
     public int space(String str) {
         int count = 0;
-        if (str.length() != 0) {
+        if(str.isEmpty()){
+            return -1;
+        }else  {
             for (int i = 0; i < str.length(); i++) {
                 if (String.valueOf(str.charAt(i)).isBlank()) {
                     count += 1;

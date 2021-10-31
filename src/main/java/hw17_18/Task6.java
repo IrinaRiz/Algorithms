@@ -9,6 +9,5 @@ public class Task6 {
 
     public String upperCaseString(String str){
         return str.toUpperCase().replaceAll(" +", " ").trim();
-
     }
 }

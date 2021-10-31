@@ -29,7 +29,7 @@ public class Task4Test {
     @Test
     public void testCountSpace3(){
         String inputString = "";
-        int expectedResult = 0;
+        int expectedResult = -1;
 
         Task4 task4 = new Task4();
         int actualResult = task4.space(inputString);

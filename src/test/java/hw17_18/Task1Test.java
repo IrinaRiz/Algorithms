@@ -29,10 +29,10 @@ public class Task1Test {
 
     @Test
     public void testReturnLetters3() {
-        String str = null;
+        String str = "";
         Task1 task1 = new Task1();
 
-        String expectedResult = "Nothing to print, string is empty";
+        String expectedResult = null;
 
         String actualResult = task1.printLetters(str);
 

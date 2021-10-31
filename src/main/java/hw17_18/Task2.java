@@ -9,8 +9,8 @@ public class Task2 {
 
     public  String oddIndexString(String str) {
         String oddLetters = "";
-        if (str == null || str.length() == 0) {
-            oddLetters = "Nothing to print, string is empty";
+        if (str.isBlank()) {
+            return null;
         } else {
             for (int i = 1; i < str.length(); i += 2) {
                 oddLetters = oddLetters.concat(String.valueOf(str.charAt(i)));

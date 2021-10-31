@@ -31,8 +31,8 @@ public class Task3Test {
     @Test
     public void testNegative(){
         char digit = '0';
-        String initialString = "  ";
-        String expectedResult = "Warning: String is empty or blank!";
+        String initialString = "";
+        String expectedResult = null;
 
         Task3 task3 = new Task3();
 
