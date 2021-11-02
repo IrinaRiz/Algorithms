@@ -32,7 +32,7 @@ public class Task3Test {
     public void testNegative(){
         char digit = '0';
         String initialString = "";
-        String expectedResult = null;
+        String expectedResult = "";
 
         Task3 task3 = new Task3();
 

@@ -11,18 +11,17 @@ public class Task8 {
 
     public List<Integer> digitsList(String str) {
         List<Integer> list2 = new ArrayList<>();
+        String string = "0123456789";
         for (int i = 0; i < str.length(); i++) {
-            if (String.valueOf(str.charAt(i)).equals("0") || String.valueOf(str.charAt(i)).equals("1") ||
-                    String.valueOf(str.charAt(i)).equals("2") || String.valueOf(str.charAt(i)).equals("3") ||
-                    String.valueOf(str.charAt(i)).equals("4") || String.valueOf(str.charAt(i)).equals("5") ||
-                    String.valueOf(str.charAt(i)).equals("6") || String.valueOf(str.charAt(i)).equals("7") ||
-                    String.valueOf(str.charAt(i)).equals("8") || String.valueOf(str.charAt(i)).equals("9")) {
+            if (string.contains(String.valueOf(str.charAt(i)))) {
                 list2.add(Integer.valueOf(String.valueOf(str.charAt(i))));
             }
         }
         return list2;
     }
 }
+
+
 
 
 

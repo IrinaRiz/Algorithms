@@ -6,12 +6,10 @@ public class Task5 {
 //            “QA For  Everyone ” -> “qaforeveryone”
 //            “ Java lessons  are fun” -> “javalessonsarefun”
     public String updatedString(String str){
-        String newString = "";
         if(str.isBlank()) {
-            return null;
+            return str;
         }else{
-            newString = str.replaceAll(" ", "").toLowerCase();
+            return str.replaceAll(" ", "").toLowerCase();
         }
-        return newString;
     }
 }

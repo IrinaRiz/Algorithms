@@ -20,3 +20,16 @@ public class Task7 {
         return count;
     }
 }
+
+//    public static int howManyVowelLetters(String str) {
+//        char[] vowel = {'A', 'a', 'E', 'e', 'I', 'i', 'Y', 'y', 'U', 'u', 'O', 'o'};
+//        int count = 0;
+//        for (int i = 0; i < str.length(); i++) {
+//            for (int j = 0; j < vowel.length; j++) {
+//                if (str.charAt(i) == vowel[j]) {
+//                    count++;
+//                }
+//            }
+//        }
+//        return count;
+//    }
