@@ -1,13 +1,9 @@
 package hw19_20;
 
-import org.apache.commons.lang3.RandomStringUtils;
-import org.apache.commons.lang3.RandomUtils;
-
-import java.nio.charset.Charset;
 import java.util.Random;
 
 public class Task15 {
-    // Напсиать метод, который генерирует строку слов случайной длины, состоящую из случайных букв английского алфавита.
+    // Напиcать метод, который генерирует строку слов случайной длины, состоящую из случайных букв английского алфавита.
     public static String random() {
 
         byte[] array = new byte[256];
