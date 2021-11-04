@@ -9,7 +9,7 @@ public class CompareTwoArrays {
         boolean result = true;
         if (array1.length != array2.length) {
             return false;
-        }else if (array1.length == array2.length) {
+        }else {
             for (int i = 0; i < array1.length; i++) {
                 result = array1[i] == array2[i];
             }
