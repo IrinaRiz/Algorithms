@@ -1,6 +1,7 @@
 package hw19_20;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Comparator;
 
 public class Task13 {
@@ -16,6 +17,7 @@ public class Task13 {
 
     public static String sortedAlphabeticalString(String str){
         String[] array = str.split(" ");
+        Arrays.sort(array, String.CASE_INSENSITIVE_ORDER);
         return Arrays.toString(array);
     }
 
