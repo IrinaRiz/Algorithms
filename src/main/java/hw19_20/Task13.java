@@ -25,6 +25,5 @@ public class Task13 {
         System.out.println(sortedString("My house is beautiful"));
         System.out.println(sortedString("QA for EveryOne"));
         System.out.println(sortedAlphabeticalString("My house is beautiful"));
-
     }
 }
