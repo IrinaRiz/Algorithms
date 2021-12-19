@@ -3,14 +3,14 @@ package hw17_18;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class Task7Test {
+public class CountVowelsTest {
     @Test
     public void testVowel1(){
         String input = "QA For Everyone";
         int expectedResult = 6;
 
-        CountVowels task7 = new CountVowels();
-        int actualResult = task7.countLetters(input);
+        CountVowels countVowels = new CountVowels();
+        int actualResult = countVowels.countLetters(input);
 
         Assert.assertEquals(expectedResult, actualResult);
     }
@@ -20,8 +20,8 @@ public class Task7Test {
         String input = "Java lessons are fun";
         int expectedResult = 7;
 
-        CountVowels task7 = new CountVowels();
-        int actualResult = task7.countLetters(input);
+        CountVowels countVowels = new CountVowels();
+        int actualResult = countVowels.countLetters(input);
 
         Assert.assertEquals(expectedResult, actualResult);
     }

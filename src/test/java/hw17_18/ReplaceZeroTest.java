@@ -3,16 +3,16 @@ package hw17_18;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class Task3Test {
+public class ReplaceZeroTest {
     @Test
     public void testRemoveDigit1(){
         char digit = '0';
         String initialString = "QAF0rEvery0ne";
         String expectedResult = "QAForEveryone";
 
-        ReplaceZeroToLetterO task3 = new ReplaceZeroToLetterO();
+        ReplaceZeroToLetterO replaceZeroToLetterO = new ReplaceZeroToLetterO();
 
-        String actualResult = task3.correctString(initialString,'0');
+        String actualResult = replaceZeroToLetterO.correctString(initialString,'0');
         Assert.assertEquals(expectedResult, actualResult);
     }
 
@@ -22,9 +22,9 @@ public class Task3Test {
         String initialString = "Java less0ns are fun";
         String expectedResult = "Java lessons are fun";
 
-        ReplaceZeroToLetterO task3 = new ReplaceZeroToLetterO();
+        ReplaceZeroToLetterO replaceZeroToLetterO = new ReplaceZeroToLetterO();
 
-        String actualResult = task3.correctString(initialString,'0');
+        String actualResult = replaceZeroToLetterO.correctString(initialString,'0');
         Assert.assertEquals(expectedResult, actualResult);
     }
 
@@ -34,9 +34,9 @@ public class Task3Test {
         String initialString = "";
         String expectedResult = "";
 
-        ReplaceZeroToLetterO task3 = new ReplaceZeroToLetterO();
+        ReplaceZeroToLetterO replaceZeroToLetterO = new ReplaceZeroToLetterO();
 
-        String actualResult = task3.correctString(initialString,'0');
+        String actualResult = replaceZeroToLetterO.correctString(initialString,'0');
         Assert.assertEquals(expectedResult, actualResult);
     }
 }

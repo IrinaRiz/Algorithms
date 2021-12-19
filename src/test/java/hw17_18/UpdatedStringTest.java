@@ -3,15 +3,15 @@ package hw17_18;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class Task5Test {
+public class UpdatedStringTest {
     @Test
     public void testRemoveSpaces1(){
         String input = "QA For  Everyone ";
         String expectedResult = "qaforeveryone";
 
-        UpdateString task5 = new UpdateString();
+        UpdateString updateString = new UpdateString();
 
-        String actualResult = task5.updatedString(input);
+        String actualResult = updateString.updatedString(input);
 
         Assert.assertEquals(expectedResult,actualResult);
     }
@@ -21,9 +21,9 @@ public class Task5Test {
         String input = " Java lessons  are fun";
         String expectedResult = "javalessonsarefun";
 
-        UpdateString task5 = new UpdateString();
+        UpdateString updateString = new UpdateString();
 
-        String actualResult = task5.updatedString(input);
+        String actualResult = updateString.updatedString(input);
 
         Assert.assertEquals(expectedResult,actualResult);
     }
@@ -33,9 +33,9 @@ public class Task5Test {
         String input = "  ";
         String expectedResult = "  ";
 
-        UpdateString task5 = new UpdateString();
+        UpdateString updateString = new UpdateString();
 
-        String actualResult = task5.updatedString(input);
+        String actualResult = updateString.updatedString(input);
 
         Assert.assertEquals(expectedResult,actualResult);
     }

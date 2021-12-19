@@ -6,14 +6,14 @@ import org.junit.Test;
 import java.util.Arrays;
 import java.util.List;
 
-public class Task8Test {
+public class ChangeToIntegersTest {
     @Test
     public void changeToDigits1(){
         String input = "QA 4 Every1";
         List<Integer> expectedResult = Arrays.asList(4, 1);
 
-        ChangeToListOfIntegers task8 = new ChangeToListOfIntegers();
-        List<Integer> actualResult = task8.digitsList(input);
+        ChangeToListOfIntegers changeToListOfIntegers = new ChangeToListOfIntegers();
+        List<Integer> actualResult = changeToListOfIntegers.digitsList(input);
         Assert.assertEquals(expectedResult, actualResult);
     }
 
@@ -22,8 +22,8 @@ public class Task8Test {
         String input = "45 тысяч 378";
         List<Integer> expectedResult = Arrays.asList(4, 5, 3, 7, 8);
 
-        ChangeToListOfIntegers task8 = new ChangeToListOfIntegers();
-        List<Integer> actualResult = task8.digitsList(input);
+        ChangeToListOfIntegers changeToListOfIntegers = new ChangeToListOfIntegers();
+        List<Integer> actualResult = changeToListOfIntegers.digitsList(input);
         Assert.assertEquals(expectedResult, actualResult);
     }
 

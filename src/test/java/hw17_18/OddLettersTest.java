@@ -3,14 +3,14 @@ package hw17_18;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class Task2Test {
+public class OddLettersTest {
     @Test
     public void testOddIndex1() {
         String str = "QAForEveryone";
         String expectedResult = "AoEeyn";
 
-        PrintOddLetters task2 = new PrintOddLetters();
-        String actualResult = task2.oddIndexString(str);
+        PrintOddLetters printOddLetters = new PrintOddLetters();
+        String actualResult = printOddLetters.oddIndexString(str);
 
         Assert.assertEquals(expectedResult, actualResult);
     }
@@ -20,8 +20,8 @@ public class Task2Test {
         String str = "JavaLessonsAreFun";
         String expectedResult = "aaesnAeu";
 
-        PrintOddLetters task2 = new PrintOddLetters();
-        String actualResult = task2.oddIndexString(str);
+        PrintOddLetters printOddLetters = new PrintOddLetters();
+        String actualResult = printOddLetters.oddIndexString(str);
 
         Assert.assertEquals(expectedResult, actualResult);
     }
@@ -31,8 +31,8 @@ public class Task2Test {
         String str = "";
         String expectedResult = null;
 
-        PrintOddLetters task2 = new PrintOddLetters();
-        String actualResult = task2.oddIndexString(str);
+        PrintOddLetters printOddLetters = new PrintOddLetters();
+        String actualResult = printOddLetters.oddIndexString(str);
 
         Assert.assertEquals(expectedResult, actualResult);
     }

@@ -3,14 +3,14 @@ package hw17_18;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class Task6Test {
+public class UpperCaseTest {
     @Test
     public void testSpace1(){
         String input = "QA For  Everyone ";
         String expectedResult = "QA FOR EVERYONE";
 
-        ChangeToUpperCase task6 = new ChangeToUpperCase();
-        String actualResult = task6.upperCaseString(input);
+        ChangeToUpperCase changeToUpperCase = new ChangeToUpperCase();
+        String actualResult = changeToUpperCase.upperCaseString(input);
 
         Assert.assertEquals(expectedResult,actualResult);
     }
@@ -20,8 +20,8 @@ public class Task6Test {
         String input = " Java lessons  are fun";
         String expectedResult = "JAVA LESSONS ARE FUN";
 
-        ChangeToUpperCase task6 = new ChangeToUpperCase();
-        String actualResult = task6.upperCaseString(input);
+        ChangeToUpperCase changeToUpperCase = new ChangeToUpperCase();
+        String actualResult = changeToUpperCase.upperCaseString(input);
 
         Assert.assertEquals(expectedResult,actualResult);
     }
