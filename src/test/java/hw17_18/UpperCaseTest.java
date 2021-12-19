@@ -9,7 +9,7 @@ public class Task6Test {
         String input = "QA For  Everyone ";
         String expectedResult = "QA FOR EVERYONE";
 
-        Task6 task6 = new Task6();
+        ChangeToUpperCase task6 = new ChangeToUpperCase();
         String actualResult = task6.upperCaseString(input);
 
         Assert.assertEquals(expectedResult,actualResult);
@@ -20,7 +20,7 @@ public class Task6Test {
         String input = " Java lessons  are fun";
         String expectedResult = "JAVA LESSONS ARE FUN";
 
-        Task6 task6 = new Task6();
+        ChangeToUpperCase task6 = new ChangeToUpperCase();
         String actualResult = task6.upperCaseString(input);
 
         Assert.assertEquals(expectedResult,actualResult);

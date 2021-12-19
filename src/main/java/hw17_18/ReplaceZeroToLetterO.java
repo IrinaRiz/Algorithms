@@ -1,6 +1,6 @@
 package hw17_18;
 
-public class Task3 {
+public class ReplaceZeroToLetterO {
     //    Написать метод, который принимает строку и заменяет все цифры 0 на букву “o”.
 //    Test Data:
 //            “QAF0rEvery0ne” -> “QAForEveryone”

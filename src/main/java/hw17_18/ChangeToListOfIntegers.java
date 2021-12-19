@@ -3,7 +3,7 @@ package hw17_18;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Task8 {
+public class ChangeToListOfIntegers {
 //    Написать метод, который все цифры из входящей строки вернет в виде List<Integer>.
 //    Test Data:
 //            “QA 4 Every1” -> [4, 1]

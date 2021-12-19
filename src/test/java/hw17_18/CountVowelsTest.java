@@ -9,7 +9,7 @@ public class Task7Test {
         String input = "QA For Everyone";
         int expectedResult = 6;
 
-        Task7 task7 = new Task7();
+        CountVowels task7 = new CountVowels();
         int actualResult = task7.countLetters(input);
 
         Assert.assertEquals(expectedResult, actualResult);
@@ -20,7 +20,7 @@ public class Task7Test {
         String input = "Java lessons are fun";
         int expectedResult = 7;
 
-        Task7 task7 = new Task7();
+        CountVowels task7 = new CountVowels();
         int actualResult = task7.countLetters(input);
 
         Assert.assertEquals(expectedResult, actualResult);

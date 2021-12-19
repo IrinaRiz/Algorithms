@@ -3,7 +3,7 @@ package hw17_18;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class Task1Test {
+public class PrintSelectedLetters {
     @Test
     public void testReturnLetters1() {
         String str = "QAForEveryone";

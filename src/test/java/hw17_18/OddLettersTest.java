@@ -9,7 +9,7 @@ public class Task2Test {
         String str = "QAForEveryone";
         String expectedResult = "AoEeyn";
 
-        Task2 task2 = new Task2();
+        PrintOddLetters task2 = new PrintOddLetters();
         String actualResult = task2.oddIndexString(str);
 
         Assert.assertEquals(expectedResult, actualResult);
@@ -20,7 +20,7 @@ public class Task2Test {
         String str = "JavaLessonsAreFun";
         String expectedResult = "aaesnAeu";
 
-        Task2 task2 = new Task2();
+        PrintOddLetters task2 = new PrintOddLetters();
         String actualResult = task2.oddIndexString(str);
 
         Assert.assertEquals(expectedResult, actualResult);
@@ -31,7 +31,7 @@ public class Task2Test {
         String str = "";
         String expectedResult = null;
 
-        Task2 task2 = new Task2();
+        PrintOddLetters task2 = new PrintOddLetters();
         String actualResult = task2.oddIndexString(str);
 
         Assert.assertEquals(expectedResult, actualResult);

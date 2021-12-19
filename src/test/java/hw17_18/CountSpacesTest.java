@@ -9,7 +9,7 @@ public class Task4Test {
         String inputString = "QA For Everyone";
          int expectedResult = 2;
 
-         Task4 task4 = new Task4();
+         CountSpaces task4 = new CountSpaces();
          int actualResult = task4.space(inputString);
 
         Assert.assertEquals(expectedResult,actualResult);
@@ -20,7 +20,7 @@ public class Task4Test {
         String inputString = "Java lessons  are fun";
         int expectedResult = 4;
 
-        Task4 task4 = new Task4();
+        CountSpaces task4 = new CountSpaces();
         int actualResult = task4.space(inputString);
 
         Assert.assertEquals(expectedResult,actualResult);
@@ -31,7 +31,7 @@ public class Task4Test {
         String inputString = "";
         int expectedResult = -1;
 
-        Task4 task4 = new Task4();
+        CountSpaces task4 = new CountSpaces();
         int actualResult = task4.space(inputString);
 
         Assert.assertEquals(expectedResult,actualResult);

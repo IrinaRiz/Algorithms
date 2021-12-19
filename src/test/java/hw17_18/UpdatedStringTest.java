@@ -9,7 +9,7 @@ public class Task5Test {
         String input = "QA For  Everyone ";
         String expectedResult = "qaforeveryone";
 
-        Task5 task5 = new Task5();
+        UpdateString task5 = new UpdateString();
 
         String actualResult = task5.updatedString(input);
 
@@ -21,7 +21,7 @@ public class Task5Test {
         String input = " Java lessons  are fun";
         String expectedResult = "javalessonsarefun";
 
-        Task5 task5 = new Task5();
+        UpdateString task5 = new UpdateString();
 
         String actualResult = task5.updatedString(input);
 
@@ -33,7 +33,7 @@ public class Task5Test {
         String input = "  ";
         String expectedResult = "  ";
 
-        Task5 task5 = new Task5();
+        UpdateString task5 = new UpdateString();
 
         String actualResult = task5.updatedString(input);
 

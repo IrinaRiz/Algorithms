@@ -1,6 +1,6 @@
 package hw17_18;
 
-public class Task6 {
+public class ChangeToUpperCase {
 //    Написать метод, который переведет строку в upper case и уберет все ЛИШНИЕ пробелы
 //
 //    Test Data:

@@ -10,7 +10,7 @@ public class Task3Test {
         String initialString = "QAF0rEvery0ne";
         String expectedResult = "QAForEveryone";
 
-        Task3 task3 = new Task3();
+        ReplaceZeroToLetterO task3 = new ReplaceZeroToLetterO();
 
         String actualResult = task3.correctString(initialString,'0');
         Assert.assertEquals(expectedResult, actualResult);
@@ -22,7 +22,7 @@ public class Task3Test {
         String initialString = "Java less0ns are fun";
         String expectedResult = "Java lessons are fun";
 
-        Task3 task3 = new Task3();
+        ReplaceZeroToLetterO task3 = new ReplaceZeroToLetterO();
 
         String actualResult = task3.correctString(initialString,'0');
         Assert.assertEquals(expectedResult, actualResult);
@@ -34,7 +34,7 @@ public class Task3Test {
         String initialString = "";
         String expectedResult = "";
 
-        Task3 task3 = new Task3();
+        ReplaceZeroToLetterO task3 = new ReplaceZeroToLetterO();
 
         String actualResult = task3.correctString(initialString,'0');
         Assert.assertEquals(expectedResult, actualResult);
